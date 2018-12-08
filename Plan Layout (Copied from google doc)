@@ -2,8 +2,9 @@ Cell phone/data plan
 
 Idea: Trivago for cell phones/data plans
 Name: CellCearch (Pronounced cell - search)
+Client: Michael Kagnew
 
-BASIC DESCRIPTION:
+BASIC DESCRIPTION/SOFTWARE REQUIREMENTS:
 This software will take basic knowledge from any given client, and based on an algorithm of array’s make a list of possible data plans for the user’s cellphone that may be best suited for them. Variables will be considered such as monthly budget, plan preference(Data, Pay as you go, etc.), and phone preference (Do you have a cell phone already or are you buying one new). 
 
 The program will start up with a frame introducing the user to the program and then proceed to ask a few basic questions to the user. These questions will consist of information such as:
@@ -13,7 +14,7 @@ And a couple more questions
 
 Once the program has gathered all data, various links to real life data plans will appear to the user based on an algorithm.  At this point the user will have to browse the presented plans and see which ones are best suited for them. Once the user has selected a plan that they like, they will click on a link that will take them straight to that company’s website/page. And they can purchase the plan.
 
-SKILLS REQUIRED:
+SKILLS NEEDED:
 Data Sorting
 GUI Interface
 Specific search through array/list
@@ -21,12 +22,15 @@ Animations
 Linking Real assets into the program
 
 LOG:
-December 3, 2018:
+December 3rd, 2018:
 Idea generated for summative
 Start of basic layout
 
 December 6th, 2018:
 Research done on possible companies and websites
+
+December 8th, 2018:
+Project Management tool created: Github Repository
 
 WEBSITE LINKS:
 https://www.fido.ca/nac/?icid=bu-hptnnac-ssbhfcwrls-07ddyy6#/choose-phone (FIDO)
@@ -38,7 +42,21 @@ https://www.koodomobile.com/rate-plans (KOODO MOBILE)
 
 NOTE: these are links to a list of plans, not individual links to an individual plan.
 
-ALGORITHM:
+BASIC ALGORITHM:
+Get input from user on monthly budget and prefered plan type
+  For monthly budget, create a range (not too large, likely 10-20 dollars under/over budget) with the inputted value as median
+Search through main array for plan type
+  Using search methods
+Under specific plan type, search through associated subarray for specific budget range inputted by user
+Output plans that are within requested range in list format
+  Keep plans which are closer to actual value inputted by user at top of list
+Get user to click on prefered plan from list given
+Once clicked, output to user essential information of plan
+  Initial information (Price, minutes, data, etc…)
+  Company website
+  Phone number
+
+DETAILED ALGORITHM:
 
 
 
