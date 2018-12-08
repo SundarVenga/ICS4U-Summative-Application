@@ -1,0 +1,56 @@
+Cell phone/data plan
+
+Idea: Trivago for cell phones/data plans
+Name: CellCearch (Pronounced cell - search)
+
+BASIC DESCRIPTION:
+This software will take basic knowledge from any given client, and based on an algorithm of array’s make a list of possible data plans for the user’s cellphone that may be best suited for them. Variables will be considered such as monthly budget, plan preference(Data, Pay as you go, etc.), and phone preference (Do you have a cell phone already or are you buying one new). 
+
+The program will start up with a frame introducing the user to the program and then proceed to ask a few basic questions to the user. These questions will consist of information such as:
+What is your monthly budget?
+What do you want out of your plan? (Data, pay as you go, etc.)
+And a couple more questions
+
+Once the program has gathered all data, various links to real life data plans will appear to the user based on an algorithm.  At this point the user will have to browse the presented plans and see which ones are best suited for them. Once the user has selected a plan that they like, they will click on a link that will take them straight to that company’s website/page. And they can purchase the plan.
+
+SKILLS REQUIRED:
+Data Sorting
+GUI Interface
+Specific search through array/list
+Animations
+Linking Real assets into the program
+
+LOG:
+December 3, 2018:
+Idea generated for summative
+Start of basic layout
+
+December 6th, 2018:
+Research done on possible companies and websites
+
+WEBSITE LINKS:
+https://www.fido.ca/nac/?icid=bu-hptnnac-ssbhfcwrls-07ddyy6#/choose-phone (FIDO)
+https://www.rogers.com/consumer/wireless (ROGERS)
+https://www.bell.ca/Mobility/Cell_phone_plans (BELL)
+https://www.telus.com/en/mobility/plans (TELUS)
+https://www.virginmobile.ca/en/plans/postpaid.html?province=ON&geoResult=ON#!/ (VIRGIN MOBILE CANADA)
+https://www.koodomobile.com/rate-plans (KOODO MOBILE)
+
+NOTE: these are links to a list of plans, not individual links to an individual plan.
+
+ALGORITHM:
+
+
+
+MODIFIED UML DIAGRAM:
+
+
+
+
+
+
+
+
+
+
+
