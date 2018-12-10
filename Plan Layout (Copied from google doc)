@@ -2,7 +2,7 @@ Cell phone/data plan
 
 Idea: Trivago for cell phones/data plans
 Name: CellCearch (Pronounced cell - search)
-Client: Michael Kagnew
+Client: Alia Nichol
 
 BASIC DESCRIPTION/SOFTWARE REQUIREMENTS:
 This software will take basic knowledge from any given client, and based on an algorithm of array’s make a list of possible data plans for the user’s cellphone that may be best suited for them. Variables will be considered such as monthly budget, plan preference(Data, Pay as you go, etc.), and phone preference (Do you have a cell phone already or are you buying one new). 
