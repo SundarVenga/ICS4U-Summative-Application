@@ -65,7 +65,7 @@ Get user to click on prefered plan from list given
 Once clicked, output to user essential information of plan
   Initial information (Price, minutes, data, etc…)
   Company website
-  Phone number
+  Phone number options
 
 DETAILED ALGORITHM:
 
