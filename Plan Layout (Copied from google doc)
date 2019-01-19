@@ -4,6 +4,8 @@ Idea: Trivago for cell phones/data plans
 Name: CellCearch (Pronounced cell - search)
 Client: Alia Nichol
 
+See Slide Included
+
 BASIC DESCRIPTION/SOFTWARE REQUIREMENTS:
 This software will take basic knowledge from any given client, and based on an algorithm of array’s make a list of possible data plans for the user’s cellphone that may be best suited for them. Variables will be considered such as monthly budget, plan preference(Data, Pay as you go, etc.), and phone preference (Do you have a cell phone already or are you buying one new). 
 
@@ -20,6 +22,15 @@ GUI Interface
 Specific search through array/list
 Animations
 Linking Real assets into the program
+https://loading.io/spinners/progress/lg.progress-bar-preloader.gif
+
+
+SCHEDULE:
+Week 1: Brainstorm ideas and start creating plan, including a basic algorithm
+Week 2: Research programming skills needed for app and create detailed algorithm and basic uml diagram (OOP)
+Week 3: Based on algorithm and uml diagram, begin to program
+Week 4 and beyond: Continue coding until final product matches clients needs
+Final week: Final touches, including perfecting aesthetics, etc...
 
 LOG:
 December 3rd, 2018:
@@ -33,15 +44,18 @@ December 8th, 2018:
 Project Management tool created: Github Repository
 
 December 10th, 2018:
+Began photoshop work for aesthetics (first bg screen)
 Completed basic algorithm and planning work
-Began photoshop work for aesthetics (First BG screen)
 
-Decmber 11th-14th, 2018:
+December 11th-14th, 2018:
 Began programming splash screen
-Completed major photoshop work, including BG for splash screen, and company logo
+Completed major photoshop work, including BG for splash screen and company logo. 
 
 December 15th-16th, 2018:
-Completed detailed algorithm and started main programming for product
+Started detailed algorithm and main programming for product
+
+Jan 7th, 2019:
+Gathering data sets for the program
 
 WEBSITE LINKS:
 https://www.fido.ca/nac/?icid=bu-hptnnac-ssbhfcwrls-07ddyy6#/choose-phone (FIDO)
@@ -53,26 +67,287 @@ https://www.koodomobile.com/rate-plans (KOODO MOBILE)
 
 NOTE: these are links to a list of plans, not individual links to an individual plan.
 
+DIRECT LINKS TO PHONES:
+
+LINK:
+PHONE NAME
+PLAN(S)
+FEATURES
+COMPANY
+https://www.fido.ca/nac/?icid=bu-hptnnac-ssbhfcwrls-07ddyy6#/build-plan
+
+
+iPhone 8
+PRICE RANGE:
+45-140$ Monthly
+
+0$ 2-year term (long term plans)
+
+OR
+
+149$ or 549$ 2-year term (short plans)
+OR
+849$ no term
+64 GB’s OR 256 GB’s
+FIDO
+https://www.fido.ca/nac/?icid=bu-hptnnac-ssbhfcwrls-07ddyy6#/build-plan
+
+
+Samsung Galaxy A8
+PRICE RANGE:
+45-130$ Monthly
+
+0$ 2-year term
+
+OR
+
+99$ 2-year term
+
+OR
+
+699$ no term
+32GB’s
+FIDO
+https://www.fido.ca/nac/?icid=bu-hptnnac-ssbhfcwrls-07ddyy6#/build-plan
+
+
+LG G7 One
+45-140$ Monthly
+
+0$ 2-year term
+
+OR
+
+119$ 2-year term
+
+OR
+
+799 no term
+32 GB’s
+FIDO
+https://www.fido.ca/nac/?icid=bu-hptnnac-ssbhfcwrls-07ddyy6#/build-plan
+
+
+iPhone X
+45-140$ Monthly
+
+0$ 2-year term
+
+OR
+
+199$ 2-year term
+
+OR
+
+399$ 2-year term
+
+OR
+
+549$ 2-year term
+
+OR
+
+979$ 2-year term
+
+OR 
+
+1279$ no term
+64 GB’s OR 256 GB’s
+FIDO
+https://www.rogers.com/web/totes/wireless/#/build-plan
+
+
+iPhone XR
+25-445$ Monthly 
+
+0$ 2-year term
+
+OR
+
+129$ 2-year term
+
+OR
+
+329$ 2-year term
+
+OR
+
+549$ 2-year term
+
+OR
+
+1029$ 2-year term
+
+OR
+
+1029$ no term
+64 GB’s OR
+128 GB’s OR
+256 GB’s
+ROGERS
+https://www.rogers.com/web/totes/wireless/#/build-plan
+
+
+iPhone XS
+25-445$ Monthly
+
+299$ 2-year term
+
+OR
+
+499$ 2-year term
+
+OR
+
+699$ 2-year term
+
+OR
+
+1009$ 2-year term
+
+OR
+
+1379$ 2-year term
+
+OR
+
+1379$ no term
+64 GB’s OR
+256 GB’s OR 512 GB’s
+ROGERS
+https://www.rogers.com/web/totes/wireless/#/build-plan
+
+
+Samsung Galaxy S9
+25-445$ Monthly
+
+0$ 2-year term
+
+OR
+
+199$ 2-year term
+
+OR
+
+349$ 2-year term
+
+OR
+
+1019$ 2-year term
+
+OR
+
+1019$ no term
+64 GB’s
+ROGERS
+https://www.rogers.com/web/totes/wireless/#/build-plan
+
+
+Google Pixel 3
+25-445$ Monthly
+
+0$ 2-year term
+
+OR
+
+99$ 2-year term
+
+OR
+249$ 2-year term
+
+OR
+
+999$ 2-year term
+
+OR
+
+1099$ no term
+64 GB’s OR 
+128GB’s
+ROGERS
+https://www.telus.com/en/mobility/plans#individual-plans
+
+
+INDIVIDUAL PLANS FOR SIM CARDS!
+15-105$ Monthly
+CANADA- CHINA (105$/M)
+TELUS
+https://www.virginmobile.ca/en/phones/phone-details.html#!/gsa8/Black/32/TR6
+
+
+Samsung Galaxy A8
+35-105$ Monthly
+
+0$ 2-year term
+
+OR
+
+99.99$ 2-year term
+
+OR
+
+599$ no term
+32 GB’s
+VIRGIN MOBILE CANADA
+https://www.virginmobile.ca/en/phones/phone-details.html#!/galaxys8/Black/64/TR18
+
+
+Samsung Galaxy S8
+35-115$ Monthly
+
+0$ 2-year term
+
+OR
+149.99$ 2-year term
+
+OR
+
+269.99$ 2-year term
+
+OR
+
+849.99$ no term
+
+
+64 GB’s
+VIRGIN MOBILE CANADA
+https://www.virginmobile.ca/en/phones/phone-details.html#!/p20huawei/Black/128/TR6
+
+
+Huawei P20
+35-105$ Monthly
+
+0$ 2-year term
+
+OR
+
+119.99$ 2-year term
+
+OR
+
+749.99$ 2-year term
+128 GB’s
+VIRGIN MOBILE CANADA
+https://www.koodomobile.com/rate-plans
+
+
+
+
+35-100$ Monthly
+
 BASIC ALGORITHM:
 Get input from user on monthly budget and prefered plan type
-  For monthly budget, create a range (not too large, likely 10-20 dollars under/over budget) with the inputted value as median
+For monthly budget, create a range (not too large, likely 10-20 dollars under/over budget) with the inputted value as median
 Search through main array for plan type
-  Using search methods
+Using search methods
 Under specific plan type, search through associated subarray for specific budget range inputted by user
 Output plans that are within requested range in list format
-  Keep plans which are closer to actual value inputted by user at top of list
+Keep plans which are closer to actual value inputted by user at top of list
 Get user to click on prefered plan from list given
 Once clicked, output to user essential information of plan
-  Initial information (Price, minutes, data, etc…)
-  Company website
-  Phone number options
-
-DETAILED ALGORITHM:
-
-
-
-MODIFIED UML DIAGRAM:
-
+Initial information (Price, minutes, data, etc…)
+Company website
+Phone number options
 
 
 
