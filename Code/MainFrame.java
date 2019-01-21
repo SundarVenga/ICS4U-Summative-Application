@@ -37,6 +37,7 @@ public class MainFrame{
 	 */
 	public static void main(String[] args) {
 		
+		//Splash Screen
 		LoadScreen ls = new LoadScreen();
 		ls.setVisible(true);
 		try {
@@ -68,11 +69,10 @@ public class MainFrame{
 	String plan;
 	String tab;
 	static int count;
-
-	/**
-	 * Initialize the contents of the frame.
-	 */
 	
+	/**
+	 * Method sets value to variable count depending on selections from drop down menu
+	 */
 	public void checker() {
 		if(budget == "Below $50") {
 			if(plan == "Data + Talk + Text") {
@@ -183,6 +183,9 @@ public class MainFrame{
 		}
 		
 	}
+	/**
+	 * Initialize the contents of the frame.
+	 */
 	
 	private void initialize() {
 		frame = new JFrame();
@@ -190,6 +193,7 @@ public class MainFrame{
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
+		//Text Fields for Company name and slogan
 		txtCellcearch = new JTextField();
 		txtCellcearch.setEditable(false);
 		txtCellcearch.setFont(new Font("Charlemagne Std", Font.BOLD, 30));
@@ -207,6 +211,7 @@ public class MainFrame{
 		frame.getContentPane().add(txtOnePlaceFor);
 		txtOnePlaceFor.setColumns(10);
 		
+		//Drop down menus
 		JTextArea txtrWhatIsYour = new JTextArea();
 		txtrWhatIsYour.setEditable(false);
 		txtrWhatIsYour.setText("What is your \nmonthly budget?");
@@ -267,6 +272,7 @@ public class MainFrame{
 		tabPick.setBounds(392, 269, 129, 26);
 		frame.getContentPane().add(tabPick);
 		
+		//continue button
 		JButton btnContinue = new JButton("Continue");
 		btnContinue.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {	
@@ -283,6 +289,7 @@ public class MainFrame{
 		btnContinue.setBounds(206, 338, 117, 29);
 		frame.getContentPane().add(btnContinue);
 		
+		//bg image
 		JLabel label = new JLabel("");
 		label.setIcon(new ImageIcon(img));
 		label.setBounds(6, 6, 538, 416);
