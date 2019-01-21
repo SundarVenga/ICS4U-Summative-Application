@@ -69,4 +69,45 @@ public class MainFrame{
 		frame.setBounds(100, 100, 550, 450);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
+		
+		txtCellcearch = new JTextField();
+		txtCellcearch.setEditable(false);
+		txtCellcearch.setFont(new Font("Charlemagne Std", Font.BOLD, 30));
+		txtCellcearch.setHorizontalAlignment(SwingConstants.CENTER);
+		txtCellcearch.setText("CellCearch");
+		txtCellcearch.setBounds(157, 6, 237, 61);
+		frame.getContentPane().add(txtCellcearch);
+		txtCellcearch.setColumns(10);
+		
+		txtOnePlaceFor = new JTextField();
+		txtOnePlaceFor.setEditable(false);
+		txtOnePlaceFor.setHorizontalAlignment(SwingConstants.CENTER);
+		txtOnePlaceFor.setText("One Place for all your cell plans");
+		txtOnePlaceFor.setBounds(167, 62, 210, 26);
+		frame.getContentPane().add(txtOnePlaceFor);
+		txtOnePlaceFor.setColumns(10);
+		
+		JTextArea txtrWhatIsYour = new JTextArea();
+		txtrWhatIsYour.setEditable(false);
+		txtrWhatIsYour.setText("What is your \nmonthly budget?");
+		txtrWhatIsYour.setBounds(25, 217, 129, 40);
+		frame.getContentPane().add(txtrWhatIsYour);
+		
+		txtrWhatTypeOf = new JTextArea();
+		txtrWhatTypeOf.setText("What type of\nplan do you\nprefer?");
+		txtrWhatTypeOf.setEditable(false);
+		txtrWhatTypeOf.setBounds(206, 196, 129, 61);
+		frame.getContentPane().add(txtrWhatTypeOf);
+		
+		txtrWhatType = new JTextArea();
+		txtrWhatType.setText("What type");
+		txtrWhatType.setBounds(266, 160, -72, 16);
+		frame.getContentPane().add(txtrWhatType);
+		
+		txtrDoYouNeed = new JTextArea();
+		txtrDoYouNeed.setText("Do you need\na cellphone\nto come with\nthe plan?");
+		txtrDoYouNeed.setEditable(false);
+		txtrDoYouNeed.setBounds(392, 184, 129, 71);
+		frame.getContentPane().add(txtrDoYouNeed);
+		
     }
