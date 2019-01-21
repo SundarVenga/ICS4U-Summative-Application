@@ -57,6 +57,12 @@ Started detailed algorithm and main programming for product
 Jan 7th, 2019:
 Gathering data sets for the program
 
+Jan 20th, 2019:
+Program progress made, nearing completion…
+
+Jan 21st, 2019:
+Program finished, bug testing for final fixes, will be done today.
+
 WEBSITE LINKS:
 https://www.fido.ca/nac/?icid=bu-hptnnac-ssbhfcwrls-07ddyy6#/choose-phone (FIDO)
 https://www.rogers.com/consumer/wireless (ROGERS)
@@ -335,6 +341,30 @@ https://www.koodomobile.com/rate-plans
 
 35-100$ Monthly
 
+
+KOODO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 BASIC ALGORITHM:
 Get input from user on monthly budget and prefered plan type
 For monthly budget, create a range (not too large, likely 10-20 dollars under/over budget) with the inputted value as median
@@ -348,6 +378,23 @@ Once clicked, output to user essential information of plan
 Initial information (Price, minutes, data, etc…)
 Company website
 Phone number options
+
+
+DETAILED ALGORITHM:
+
+Loading screen plays in front of user for 5 seconds before opening the main menu to the program.
+After the timer ticks for the loading screen, the main menu will be displayed with several options for the user to select that will be shown in top down menus. User Input is entered for monthly budget, prefered plans and their price ranges.
+After everything is adjusted to the user’s liking the program will search the array’s, compare them to the user input, and selected matching plans. After the plans are selected, they will be inserted into a new array that will be shown to the user later on.
+The list will then be modified via sorting methods to match the users budget from best to worst.
+Once the new array’s been sorted and ready to present to the user, the next frame will present the array to the user in a list format, showing the company, plan type, fee’s, phone purchases (If selected), and a direct link to the page, which will have more details about the plan itself.
+
+
+PSEUDOCODE:
+
+
+MODIFIED UML DIAGRAM:
+
+
 
 
 
