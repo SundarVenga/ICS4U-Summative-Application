@@ -201,6 +201,57 @@ public class Plans extends JFrame{
 			txtrOption.setBounds(160, 122, 278, 98);
 			contentPane.add(txtrOption);
 		}
+		
+		if(MainFrame.count == 10) {
+			JTextArea txtrOption = new JTextArea();
+			txtrOption.setEditable(false);
+			txtrOption.setText("Option 1: Fido\nData: 10GB + 2GB (Roam included)\nCalling: Unlimited Canada-Wide Mins\nTexting: Unlimited\nPhone: Huawei P20\nPrice: $135/mo\n");
+			txtrOption.setBounds(160, 122, 278, 98);
+			contentPane.add(txtrOption);
+			
+			JTextArea txtrOption2 = new JTextArea();
+			txtrOption2.setText("Option 2: Rogers\nData: 7GB\nCalling: Unlimited Canada-Wide Mins\nTexting: Unlimited\nPhone: iPhone X\nPrice: $130/mo\n");
+			txtrOption2.setEditable(false);
+			txtrOption2.setBounds(160, 254, 278, 98);
+			contentPane.add(txtrOption2);
+		}
+		if(MainFrame.count == -10) {
+			JTextArea txtrOption = new JTextArea();
+			txtrOption.setEditable(false);
+			txtrOption.setText("Option 1: Rogers\nData: 13GB\nCalling: Unlimited Canada-Wide Mins\nTexting: Unlimited\nPhone: None\nPrice: $130/mo\n");
+			txtrOption.setBounds(160, 122, 278, 98);
+			contentPane.add(txtrOption);
+		}
+		
+		if(MainFrame.count == 11) {
+			JTextArea txtrOption = new JTextArea();
+			txtrOption.setEditable(false);
+			txtrOption.setText("Not in Price Range");
+			txtrOption.setBounds(160, 122, 278, 98);
+			contentPane.add(txtrOption);
+		}
+		if(MainFrame.count == -11) {
+			JTextArea txtrOption = new JTextArea();
+			txtrOption.setEditable(false);
+			txtrOption.setText("Not in Price Range");
+			txtrOption.setBounds(160, 122, 278, 98);
+			contentPane.add(txtrOption);
+		}
+		
+		if(MainFrame.count == 12) {
+			JTextArea txtrOption = new JTextArea();
+			txtrOption.setEditable(false);
+			txtrOption.setText("Not in Price Range");
+			txtrOption.setBounds(160, 122, 278, 98);
+			contentPane.add(txtrOption);
+		}
+		if(MainFrame.count == -12) {
+			JTextArea txtrOption = new JTextArea();
+			txtrOption.setEditable(false);
+			txtrOption.setText("Not in Price Range");
+			txtrOption.setBounds(160, 122, 278, 98);
+			contentPane.add(txtrOption);
+		}
 		Image img3 = new ImageIcon(this.getClass().getResource("/plansBg.jpg")).getImage();
 		
 		JButton btnBack = new JButton("Back");
