@@ -344,28 +344,7 @@ https://www.koodomobile.com/rate-plans
 
 KOODO
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-BASIC ALGORITHM:
+GENERAL ALGORITHM:
 Get input from user on monthly budget and prefered plan type
 For monthly budget, create a range (not too large, likely 10-20 dollars under/over budget) with the inputted value as median
 Search through main array for plan type
@@ -380,28 +359,371 @@ Company website
 Phone number options
 
 
-DETAILED ALGORITHM:
-
-Loading screen plays in front of user for 5 seconds before opening the main menu to the program.
-After the timer ticks for the loading screen, the main menu will be displayed with several options for the user to select that will be shown in top down menus. User Input is entered for monthly budget, prefered plans and their price ranges.
-After everything is adjusted to the user’s liking the program will search the array’s, compare them to the user input, and selected matching plans. After the plans are selected, they will be inserted into a new array that will be shown to the user later on.
-The list will then be modified via sorting methods to match the users budget from best to worst.
-Once the new array’s been sorted and ready to present to the user, the next frame will present the array to the user in a list format, showing the company, plan type, fee’s, phone purchases (If selected), and a direct link to the page, which will have more details about the plan itself.
-
-
 PSEUDOCODE:
 
+LOADING SCREEN:
+
+Package mainFrame;
+
+Import required imports for program;
+
+Public class “Loadscreen” extends Jframe;
+
+	Private Jpanel contentpane;
+
+	Public Static void main
+	
+		Eventqueue (new(runnable{
+
+		Public void run{
+
+			Try{
+
+			Loadscreen frame = new loadscreen();
+			frame.setVisable(true);
+			}catch (Exception e){
+
+				e.printStackTrace();
+
+		}} (Close code block here)
+
+Public Loadscreen(){
+
+	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	setBounds ();
+	New pane = new jpanel();
+	contentpane.setBorder();
+	contentpane.setLayout();
+	setContentpane(contentpane);
+
+	Jlabel Label = new JLabel(“”);
+	Image img2 = new ImageIcon(Image Address);
+	label.setIcon(new ImageIcon(img2));
+	contentpane.add (label, borderlayout.CENTER);
+
+}}
+
+
+MAINFRAME CODE:
+
+Package mainFrame;
+
+Import required imports here;
+
+Public class MainFrame{
+
+	Static JFrame frame;
+	private JTextField txtCellcearch;
+	private JTextField txtOnePlaceFor;
+	private JTextField txtrWhatTypeOf;
+	private JTextField txtrWhatType;
+	private JComboBox planPick;
+	private JTextArea txtrDoYouNeed;
+	private JComboBox tabPick;
+
+// launch application
+
+Public static void main{
+
+	LoadScreen 1s = new LoadScreen();
+	1s.setVisable(true);
+	try{
+
+		Delay (5 seconds);
+		1s.dispose();
+	}
+	catch(InterruptedException e2){
+		e2.printStackTract();
+	}
+
+	EventQueue.invokeLater(new Runnable() {
+
+		Public void run(){
+
+			try {
+
+				MainFrame window = new frame();
+				window.frame.setVisable(true);
+			}catch (Exception e){
+				e.printStackTrace()’
+			}
+	}}}} // close code block here
+
+
+// creating the windows and application appeal
+
+
+Public MainFrame(){
+	initialize();
+}
+String budget;
+String plan;
+String tab;
+static int count;
+
+// set up frame contents
+
+public void checker(){
+	If (budget == “Below 50$”){
+		if (plan == “Data + Talk + Text”){
+		if(tab == “yes”) {
+			count = 1;
+		}
+		else {
+			count = -1;
+
+}}
+If (plan == “Data Only”) {
+
+		if (tab == “yes”){
+			count = 2;
+		}
+		else {
+			count = -2;
+		}
+}
+
+If (plan == “Talk + Text”){
+		if(tab == “yes”){
+			count = 3;
+		}
+		else {
+			count =3;
+}}}
+
+	If (budget == “50$ - 90$”){
+		if (plan == “Data + Talk + Text”){
+		if(tab == “yes”) {
+			count = 4;
+		}
+		else {
+			count = -4;
+
+}}
+If (plan == “Data Only”) {
+
+		if (tab == “yes”){
+			count = 5;
+		}
+		else {
+			count = -5;
+		}
+}
+
+If (plan == “Talk + Text”){
+		if(tab == “yes”){
+			count = 6;
+		}
+		else {
+			count = -6;
+}}}
+
+	If (budget == “ 90$ - 130$”){
+		if (plan == “Data + Talk + Text”){
+		if(tab == “yes”) {
+			count = 7;
+		}
+		else {
+			count = -7;
+
+}}
+If (plan == “Data Only”) {
+
+		if (tab == “yes”){
+			count = 8;
+		}
+		else {
+			count = -8;
+		}
+}
+
+If (plan == “Talk + Text”){
+		if(tab == “yes”){
+			count = 9;
+		}
+		else {
+			count =-9;
+}}}
+
+	If (budget == “130$+”){
+		if (plan == “Data + Talk + Text”){
+		if(tab == “yes”) {
+			count = 10;
+		}
+		else {
+			count = -10;
+
+}}
+If (plan == “Data Only”) {
+
+		if (tab == “yes”){
+			count = 11;
+		}
+		else {
+			count = -11;
+		}
+}
+
+If (plan == “Talk + Text”){
+		if(tab == “yes”){
+			count = 12;
+		}
+		else {
+			count =-12;
+}}}
+
+
+
+
+
+
+
+// setting up framework and layout
+
+
+private void initialize(){
+
+	Frame = new JFrame();
+	frame.setbounds(boundaries here);
+	frame.setDefaultCloseOpertation(JFrame.EXIT_ON_CLOSE);
+	frame.getContentPane().setLayout(null);
+
+	txtCellcearch = new TextField();
+	txtCellcearch .setEditable(false);
+	txtCellcearch .SetFont ( new Font( font name, bold factor, size ));
+	txtCellcearch .setHorizonAlignment( Set alingment here );
+	txtCellcearch .setText(“CellCearch”);
+	txtCellcearch .setBound( set boundaries here );
+	frame.getContentPane().add(txtCellcearch );
+	txtCellcearch .setColumns ( Columns # here );
+
+	CONTINUE TO SET UP NEEDED TEXT BLOCKS LIKE THIS
+
+// after text blocks have been setup
+
+	JComboBox budgetPick = new JComboBox():
+	budgetPick.addActionListener(new ActionListener() {
+		public void actionPerformed(ActionEvent e){
+			Budget = (bughetPick.getSelectedItem()).toString();
+}
+}};
+budgetPick.setModel(new DefaultComboBoxModel(new String[] {“Content”, “Content here”}));
+budgetPick.setToolTipText(“”);
+budgetPick.setBounds (boundaries here);
+frame.getContentPane().add(budgetPick);
+Image img = new ImageIcon(Image source here)
+
+	CONTINUE TO SET UP NEEDED DROP DOWN MENUS LIKE THIS
+JButton btnContinue = new JButton(“Continue”);
+btnContinue.addActionListener(new ActionListener(){ 	
+public void actionPerformed(ActionEvent e){
+
+	checker();
+	If (count <=12) { 
+		MainFrame.frame.dispose();
+		Plans plz = new Plans();
+		pln.setVisable(true);
+}
+}
+});
+btnContinue.setBounds (boundaries here);
+frame.getContentPane().add(btnContinue);
+
+JLabel label = new JLabel(“”);
+label.setIcon(new ImageIcon(img));
+Label.setbounds (boundaries here);
+frame.getContentPane().add(label);
+
+
+	
+PLANS:
+
+	package mainFrame;
+	
+	Import needed imports here;
+
+	Public class Plans extends JFrame{
+
+
+		private JPanel contentPane;
+
+		public static void main method {
+
+			public void run() {
+				
+				try {
+
+					Plans frame = new Plans();
+							frame.setVisable(true);
+						}catch (Exception e) {
+							e.printStackTrace();
+
+}}
+});
+}
+
+		If (MainFrame.count == 1) {
+			JTextArea txtOption = new JTextArea();
+			txtrOption.set needed details (edibility, size, etc.);
+			contentPane.add(txtrOption);
+			
+			JTextArea txtrOption 2 = new JTextArea();
+			txtrOption2.set needed details (edibility, size, etc.);
+			contentPane.add(txtrOption2);
+	}
+
+			CONTINUE TO SET UP IF STATEMENTS LIKE THIS UNTIL ALL POSSIBLE OUTCOMES ARE MET THAT MEET REQUIREMENTS FROM USERS.
+
+		Image img3 = new ImageIcon(get image source here);
+		
+		JButton btnBack = new JButton (“Back”);
+		btnBack.addActionListener(new Actionlistener() {
+			Public void actionPerformed(ActionEvent e) {
+				MainFrame.frame.setVisible(true);
+			}
+
+		});
+		btnBack.setBounds (Boundaries here);
+		contentPane.add(btnBack);
+
+
+		JLabel label = new JLabel(“”);
+		label.setIcon(new ImageIcon(img3));
+		label.setBounds (boundaries here);
+		contentPane.add(label);
+
+}}
+	
+	
 
 MODIFIED UML DIAGRAM:
 
+Plans
+MainFrame
+Loading Screen
+Documented.Plans()
+User_to_data_Comparison()
 
 
+DropDownMenu.Selections() X3
+Continue.Button()
+Background.Image()
 
 
+First.Frame()
+Loading.Image()
 
 
+PEER TESTING:
 
+Ovais: Viewed production of program from the early stages and seemed to show some interest in it. Was satisfied with program even with a few bugs found here and there. 
+Michael: Viewed production of program during early development and showed much interest during trial uses and tests of the program. He was curious to see the thought process behind it and how we were developing it. Seemed to be happy once he finished testing it.
+Alex: Although little interest was shown in the project, he was surprised with how smooth everything ran and how detailed the code was. He wasn’t able to find any bugs during testing which meant good news for us. Although it seemed like he wasn’t interested, he had no issues participating.
+Satsang: Was very interested in the program, and was actually a helping hand in the developing process whenever we ran into a dead end. He was happy to lend us a hand from time to time and give us critical feedback on the code and software appearance. A very helpful tester who made this program better than what we likely would’ve gotten on our own.
 
-
+CUSTOMER REVIEW:
+Overall well done application
+Easily usable, nice graphics, very smooth
+Good purpose since everyone has a smartphone and they all want the best deal
 
 
