@@ -40,4 +40,11 @@ public class LoadScreen extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);
-    }
+		
+		JLabel label = new JLabel("");
+		Image img2 = new ImageIcon(this.getClass().getResource("/load.jpg")).getImage();
+		label.setIcon(new ImageIcon(img2));
+		contentPane.add(label, BorderLayout.CENTER);
+	}
+
+}
