@@ -53,12 +53,12 @@ public class Plans extends JFrame{
 		if(MainFrame.count == 1) {
 			JTextArea txtrOption = new JTextArea();
 			txtrOption.setEditable(false);
-			txtrOption.setText("Option 1: Fido\nData: Pay Per Use (Roam included)\nCalling: 500 Canada-Wide Mins\nTexting: Unlimited\nPhone: Huawei P20 Lite (Upgradeable)\nPrice: $45/mo\n");
+			txtrOption.setText("Option 1: Koodo\nData: 1GB\nCalling: Unlimited Canada-Wide Mins\nTexting: Unlimited\nPhone: IPhone SE 32GB\nPrice: $35/mo + $485 Upfront\n");
 			txtrOption.setBounds(160, 122, 278, 98);
 			contentPane.add(txtrOption);
 			
 			JTextArea txtrOption2 = new JTextArea();
-			txtrOption2.setText("Option 2: Fido\nData: Pay Per Use (Roam included)\nCalling: 500 Canada-Wide Mins\nTexting: Unlimited\nPhone: LG G6 (Upgradeable)\nPrice: $45/mo\n");
+			txtrOption2.setText("Option 2: Freedom Mobile\nData: 500MB\nCalling: Unlimited Canada-Wide Mins\nTexting: Unlimited\nPhone: IPhone 7 32GB\nPrice: $25/mo + $529 Upfront\n");
 			txtrOption2.setEditable(false);
 			txtrOption2.setBounds(160, 254, 278, 98);
 			contentPane.add(txtrOption2);
@@ -66,7 +66,7 @@ public class Plans extends JFrame{
 		if(MainFrame.count == -1) {
 			JTextArea txtrOption = new JTextArea();
 			txtrOption.setEditable(false);
-			txtrOption.setText("Option 1: Fido\nData: Pay Per Use (Roam included)\nCalling: 500 Canada-Wide Mins\nTexting: Unlimited\nPhone: None\nPrice: $35/mo\n");
+			txtrOption.setText("Option 1: Freedom Mobile\nData: 500MB\nCalling: Unlimited Local Mins\nTexting: Unlimited\nPhone: None\nPrice: $20/mo + $10 Upfront\n");
 			txtrOption.setBounds(160, 122, 278, 98);
 			contentPane.add(txtrOption);
 		}
@@ -154,12 +154,12 @@ public class Plans extends JFrame{
 		if(MainFrame.count == 7) {
 			JTextArea txtrOption = new JTextArea();
 			txtrOption.setEditable(false);
-			txtrOption.setText("Option 1: Fido\nData: 2GB (Roam included)\nCalling: Unlimited Canada-Wide Mins\nTexting: Unlimited\nPhone: Huawei P20 Lite\nPrice: $65/mo\n");
+			txtrOption.setText("Option 1: Fido\nData: 10GB (Roam included)\nCalling: Unlimited Canada-Wide Mins\nTexting: Unlimited\nPhone: LG G7 One\nPrice: $90/mo\n");
 			txtrOption.setBounds(160, 122, 278, 98);
 			contentPane.add(txtrOption);
 			
 			JTextArea txtrOption2 = new JTextArea();
-			txtrOption2.setText("Option 2: Rogers\nData: 4GB\nCalling: Unlimited Local Mins\nTexting: Unlimited\nPhone: iPhone 8\nPrice: $85/mo\n");
+			txtrOption2.setText("Option 2: Rogers\nData: 7GB\nCalling: Unlimited Canada-Wide Mins\nTexting: Unlimited\nPhone: iPhone 8\nPrice: $95/mo\n");
 			txtrOption2.setEditable(false);
 			txtrOption2.setBounds(160, 254, 278, 98);
 			contentPane.add(txtrOption2);
@@ -167,7 +167,37 @@ public class Plans extends JFrame{
 		if(MainFrame.count == -7) {
 			JTextArea txtrOption = new JTextArea();
 			txtrOption.setEditable(false);
-			txtrOption.setText("Option 1: Fido\nData: 4GB\nCalling: Unlimited Local Mins\nTexting: Unlimited\nPhone: None\nPrice: $80/mo\n");
+			txtrOption.setText("Option 1: Fido\nData: 10GB\nCalling: Unlimited Canada-Wide Mins\nTexting: Unlimited\nPhone: None\nPrice: $90/mo\n");
+			txtrOption.setBounds(160, 122, 278, 98);
+			contentPane.add(txtrOption);
+		}
+		
+		if(MainFrame.count == 8) {
+			JTextArea txtrOption = new JTextArea();
+			txtrOption.setEditable(false);
+			txtrOption.setText("Not in Price Range");
+			txtrOption.setBounds(160, 122, 278, 98);
+			contentPane.add(txtrOption);
+		}
+		if(MainFrame.count == -8) {
+			JTextArea txtrOption = new JTextArea();
+			txtrOption.setEditable(false);
+			txtrOption.setText("Not in Price Range");
+			txtrOption.setBounds(160, 122, 278, 98);
+			contentPane.add(txtrOption);
+		}
+		
+		if(MainFrame.count == 9) {
+			JTextArea txtrOption = new JTextArea();
+			txtrOption.setEditable(false);
+			txtrOption.setText("Not in Price Range");
+			txtrOption.setBounds(160, 122, 278, 98);
+			contentPane.add(txtrOption);
+		}
+		if(MainFrame.count == -9) {
+			JTextArea txtrOption = new JTextArea();
+			txtrOption.setEditable(false);
+			txtrOption.setText("Not in Price Range");
 			txtrOption.setBounds(160, 122, 278, 98);
 			contentPane.add(txtrOption);
 		}
@@ -181,7 +211,7 @@ public class Plans extends JFrame{
 				//pln.dispose();
 			}
 		});
-		btnBack.setBounds(374, 358, 117, 29);
+		btnBack.setBounds(374, 365, 117, 29);
 		contentPane.add(btnBack);
 		
 		
