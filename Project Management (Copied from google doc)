@@ -7,7 +7,7 @@ Client: Alia Nichol
 See Slide Included
 
 BASIC DESCRIPTION/SOFTWARE REQUIREMENTS:
-This software will take basic knowledge from any given client, and based on an algorithm of array’s make a list of possible data plans for the user’s cellphone that may be best suited for them. Variables will be considered such as monthly budget, plan preference(Data, Pay as you go, etc.), and phone preference (Do you have a cell phone already or are you buying one new). 
+This software will take basic knowledge from any given client, and based on an algorithm of data, it will make a list of possible data plans for the user’s cellphone that may be best suited for them. Variables will be considered such as monthly budget, plan preference(Data, Pay as you go, etc.), and phone preference (Do you have a cell phone already or are you buying one new). 
 
 The program will start up with a frame introducing the user to the program and then proceed to ask a few basic questions to the user. These questions will consist of information such as:
 What is your monthly budget?
@@ -19,18 +19,21 @@ Once the program has gathered all data, various links to real life data plans wi
 SKILLS NEEDED:
 Data Sorting
 GUI Interface
-Specific search through array/list
 Animations
-Linking Real assets into the program
-https://loading.io/spinners/progress/lg.progress-bar-preloader.gif
+Management of frames
 
+CUSTOMER REQUIREMENTS:
+Visuals
+Easy to use
+Efficient
+Output appropriate data when needed
 
 SCHEDULE:
 Week 1: Brainstorm ideas and start creating plan, including a basic algorithm
 Week 2: Research programming skills needed for app and create detailed algorithm and basic uml diagram (OOP)
 Week 3: Based on algorithm and uml diagram, begin to program
 Week 4 and beyond: Continue coding until final product matches clients needs
-Final week: Final touches, including perfecting aesthetics, etc...
+Final Week: Final touches, including perfecting aesthetics, etc...
 
 LOG:
 December 3rd, 2018:
@@ -344,20 +347,36 @@ https://www.koodomobile.com/rate-plans
 
 KOODO
 
-GENERAL ALGORITHM:
-Get input from user on monthly budget and prefered plan type
-For monthly budget, create a range (not too large, likely 10-20 dollars under/over budget) with the inputted value as median
-Search through main array for plan type
-Using search methods
-Under specific plan type, search through associated subarray for specific budget range inputted by user
-Output plans that are within requested range in list format
-Keep plans which are closer to actual value inputted by user at top of list
-Get user to click on prefered plan from list given
-Once clicked, output to user essential information of plan
-Initial information (Price, minutes, data, etc…)
-Company website
-Phone number options
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GENERAL ALGORITHM:
+Get input from user on monthly budget and plan type using drop down boxes
+Depending on selections of user, set variable
+Get input from user whether a new phone has to be bought
+If yes, set variable positive
+If no, set variable negative
+Wait for user to click continue
+Depending on value of variable, output text of best option from data
+Wait for user to click back or close application
 
 PSEUDOCODE:
 
@@ -380,7 +399,7 @@ Public class “Loadscreen” extends Jframe;
 			Try{
 
 			Loadscreen frame = new loadscreen();
-			frame.setVisable(true);
+			frame.setVisible(true);
 			}catch (Exception e){
 
 				e.printStackTrace();
@@ -575,9 +594,6 @@ If (plan == “Talk + Text”){
 
 
 
-
-
-
 // setting up framework and layout
 
 
@@ -604,7 +620,7 @@ private void initialize(){
 	JComboBox budgetPick = new JComboBox():
 	budgetPick.addActionListener(new ActionListener() {
 		public void actionPerformed(ActionEvent e){
-			Budget = (bughetPick.getSelectedItem()).toString();
+			Budget = (budgetPick.getSelectedItem()).toString();
 }
 }};
 budgetPick.setModel(new DefaultComboBoxModel(new String[] {“Content”, “Content here”}));
@@ -621,8 +637,8 @@ public void actionPerformed(ActionEvent e){
 	checker();
 	If (count <=12) { 
 		MainFrame.frame.dispose();
-		Plans plz = new Plans();
-		pln.setVisable(true);
+		Plans plan = new Plans();
+		plan.setVisible(true);
 }
 }
 });
@@ -694,24 +710,36 @@ PLANS:
 
 }}
 	
-	
-
 MODIFIED UML DIAGRAM:
 
-Plans
+Classes
 MainFrame
-Loading Screen
-Documented.Plans()
-User_to_data_Comparison()
+Plans extends JFrame
+LoadScreen extends JFrame
+States (attributes)
+budget()
+plan()
+tab()
+
+N/A
+
+N/A
+
+Behaviors (methods)
 
 
-DropDownMenu.Selections() X3
-Continue.Button()
-Background.Image()
+main()
+MainFrame()
+checker()
+initialize()
 
 
-First.Frame()
-Loading.Image()
+
+
+LoadScreen()
+
+
+Plans()
 
 
 PEER TESTING:
@@ -725,5 +753,3 @@ CUSTOMER REVIEW:
 Overall well done application
 Easily usable, nice graphics, very smooth
 Good purpose since everyone has a smartphone and they all want the best deal
-
-
